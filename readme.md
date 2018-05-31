@@ -11,6 +11,18 @@ If you use package.el with [Marmalade](http://marmalade-repo.org/) or [MELPA](ht
 
 Next, you install the perl module `RPC::EPC::Service', DBI and Database drivers with CPAN. 
 
+#### installing CPAN
+- CPAN is where all the Perl modules live. I do mention in this example usage on Fedora27+  or find more info [here](https://www.linuxnix.com/how-to-install-cpan-package-and-configure-it-in-linux/) or [here](https://www.putorius.net/2011/03/how-to-install-perl-modules-with-cpan.html)
+
+```
+$ sudo dnf install perl-cpan
+```
+- Then, let it **CPAN** configure itself by running:
+```
+$ cpan
+```
+Afterwards carry on installing some Perl modules we are probably going to require:
+
 Example:
 ```
 $ cpan RPC::EPC::Service DBI DBD::SQLite DBD::Pg DBD::mysql

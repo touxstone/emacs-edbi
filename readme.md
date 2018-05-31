@@ -21,7 +21,7 @@ $ sudo dnf install perl-cpan
 ```
 $ cpan
 ```
-Afterwards carry on installing some Perl modules we are probably going to require:
+Afterwards carry on installing the Perl module above mentioned and some others we are probably going to require:
 
 Example:
 ```
